@@ -10,7 +10,7 @@ class T_main {
         T_emb_s.x().init_custom("./conf/commons.conf")
         T_s.l().log_info(T_s.s().Welcome_to_Wirecard_Embossing_file_post_processor)
         T_s.l().log_info(T_s.s().Input_file_Z1, T_emb_s.c().GC_SOURCE_FILE_NAME)
-        T_s.l().log_info(T_s.s().Output_file_Z2, T_emb_s.c().GC_DESTINATION_FILE_NAME)
+        T_s.l().log_info(T_s.s().Output_file_Z1, T_emb_s.c().GC_DESTINATION_FILE_NAME)
         T_emb_post_processor l_emb_post_processor = new T_emb_post_processor()
         l_emb_post_processor.process_file(T_emb_s.c().GC_SOURCE_FILE_NAME, T_emb_s.c().GC_DESTINATION_FILE_NAME)
     }
